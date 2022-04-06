@@ -19,4 +19,12 @@ public class TaskListTests {
         Assertions.assertEquals(list, (list));
     }
 
+    @Test
+    public void ZeigeImportData() throws IllegalArgumentException {
+
+        List<TaskList> list = new ArrayList<>();
+        list.add(new TaskList());
+        Assertions.assertEquals(list, (list));
+
+    }
 }
